@@ -17,6 +17,8 @@ elsif RUBY_VERSION < "2.8"
   gem "selenium-webdriver", "< 4.9.1", group: :development
 end
 
+
+gem 'rack', '~> 2.2'
 #group :development do
 #  gem "pry"
 #end
